@@ -1,0 +1,202 @@
+:root{
+	font-size: 62.5%; /* 1rem = 10px */
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{	
+	background: #F5FFFA url('imagens/fundo.png') repeat-x;
+	
+}
+#container{
+	width: 75rem;
+	margin: 0 auto;
+	
+}
+header{
+	height: 15rem;
+	background: url(imagens/detalhe-topo.png) no-repeat right center;
+	padding:  1.6rem 0;
+}
+#logo{
+	width: 15.2rem;
+	height: 6.6rem;
+	background: url(imagens/logo.png);
+	text-indent: -4000px;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header ul{
+	margin-top: 4.4rem;
+	background: #b10333;
+	float: left;
+}
+header ul li{
+	float: left;
+}
+header ul a{
+	font-size: 1.5rem;
+	display: block;
+	padding: 0.9rem 1.9rem;
+	text-decoration: none;
+	line-height: 2rem;
+	color: #fff;
+	background: url(imagens/divisor.png) repeat-y right center;
+
+}
+header ul a:hover{
+	color: #69001d;
+}
+body.home nav a#home,
+body.brasil nav a#brasil,
+body.internacional nav a#internacional,
+body.fotos nav a#fotos{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+#conteudo{
+	margin-top: 6rem;
+	background-color: #f5f5f5;
+}
+#tres-colunas #primario{
+	width: 27rem;
+	float: left;
+	margin: 0 0 2rem 19.5rem ;
+
+}
+#duas-colunas #primario{
+	width: 55.5rem;
+	float: left;
+	margin: 0 0 2rem 19.5rem ;
+
+}
+
+#uma-coluna #primario{
+	width: 75rem;
+	float: left;
+	margin: 0 0 2rem 0 ;
+
+}
+#secundario{
+	width: 27rem;
+	float: left;
+	margin: 0 0 2rem 1.5rem;
+}
+/*Configuração lateral*/
+#lateral{
+	width: 18rem;
+	float: left;
+	margin: 0 0 2rem -75rem;
+
+}
+
+h2{
+	margin-top: 0;
+	font-size: 1.7rem;
+	background-color: #294c71;
+	color: #fff;
+	padding: 0.5rem;
+}
+.caixa{
+	margin: 1rem 0;
+	padding:0.5rem 0;
+	background: #f3f3f3 url(imagens/fundo-caixa.png);
+	font-size: 1.3rem;
+}
+.caixa-conteudo{
+	background: #fff;
+	padding: 0.5rem;
+}
+#lateral ul a{
+	font-size: 1.3rem;
+	padding: 0.3rem;
+	display: block;
+	line-height: 3rem;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover{
+	background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+	color: #a1a1a1;
+	padding-left: 3rem;
+}
+label{
+	display: block;
+	cursor: pointer;
+}
+input{
+	width: 12.5rem;
+	font-size: 1.4rem;
+	background-color: #fff;
+	padding: 0.5rem;
+	border: 1px solid rgba(	131,111,255, 0.2);
+}
+input.submit{
+	width: 8rem;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+	padding: 0.5rem;
+}
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 1.2rem;
+	padding: 0.3rem;
+}
+.destaque h3{
+	background: #b10333;
+	color: #fff;
+}
+.entrevista h3{
+	background:  #de003e;
+	color: #fff;
+}
+img{
+	border: 2px solid #dfdfdf;
+}
+img.imagem-principal{
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+#lista-noticia li{
+	padding: 0.2rem;
+	border-bottom: 1px solid #ccc;
+	height: 6.5rem;
+}
+
+#lista-noticia li a img{
+	float: left;
+	margin:  0.5rem;
+}
+#lista-noticia li a {
+	text-decoration: none;
+	font-size: 1.1rem;
+}
+#lista-noticia li a h3 {
+	font-size: 1.2rem;
+	color: #3e7ab9;
+	padding: 0;
+}
+#lista-noticia li:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+
+footer{
+	background-color: #294c71;
+	padding: 2rem;
+	clear: both;
+	margin: 0 auto;
+	color:  #fff;
+	font-size: 1.8rem;
+	text-align: center;
+}
